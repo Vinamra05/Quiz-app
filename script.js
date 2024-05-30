@@ -1,4 +1,54 @@
 const questions = [
+
+    {
+        question: "Which is the largest planet in our solar system?",
+        answers: [
+            { text: "Earth", correct: false },
+            { text: "Jupiter", correct: true },
+            { text: "Saturn", correct: false },
+            { text: "Mars", correct: false },
+        ]
+    },
+
+    {
+        question: "Who wrote the play 'Romeo and Juliet'?",
+        answers: [
+            { text: "William Shakespeare", correct: true },
+            { text: "Charles Dickens", correct: false },
+            { text: "Mark Twain", correct: false },
+            { text: "Jane Austen", correct: false },
+        ]
+    },
+
+    {
+        question: "What is the capital of Japan?",
+        answers: [
+            { text: "Beijing", correct: false },
+            { text: "Seoul", correct: false },
+            { text: "Tokyo", correct: true },
+            { text: "Bangkok", correct: false },
+        ]
+    },
+    {
+        question: "What is the chemical symbol for water?",
+        answers: [
+            { text: "H2O", correct: true },
+            { text: "O2", correct: false },
+            { text: "CO2", correct: false },
+            { text: "HO", correct: false },
+        ]
+    },
+    {
+        question: "Which country is known as the Land of the Rising Sun?",
+        answers: [
+            { text: "China", correct: false },
+            { text: "Japan", correct: true },
+            { text: "South Korea", correct: false },
+            { text: "India", correct: false },
+        ]
+    },
+
+
     {
         question: "Which of the following I loves the most?",
         answers: [
